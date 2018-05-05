@@ -11,7 +11,7 @@ import json
 import io
 
 THINGSBOARD_HOST = '127.0.0.1'
-ACCESS_TOKEN = 'JnauKcGnUfdOosyNeYhb'
+ACCESS_TOKEN = 'Your_Access_Token'
 #Serial Port xbee
 port="/dev/ttyUSB0"
 ser = serial.Serial(port, 9600, timeout=1)  # Le port utilis� /dev/ttyUSB0
